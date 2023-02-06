@@ -1,2 +1,1 @@
-# agama-projects
-Place to store my Agama Projects
+### Agama Project Folder
