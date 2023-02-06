@@ -1,0 +1,8 @@
+Flow org.gluu.agama.projects.bob
+     Basepath "bob"
+Repeat __________ times max
+     RRF "__________" __________
+     __________ = Call __________#__________ __________
+     When __________ __________ __________
+          Log "@ " __________
+          Finish __________
