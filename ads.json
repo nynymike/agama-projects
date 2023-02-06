@@ -1,0 +1,28 @@
+{
+    "Bobthentication": {
+        "gh_author": "nynymike",
+        "gh_repo_path": "agama-projects",
+        "project_name": "Bobthentication",
+        "version": "0.0.1",
+        "author": "nynymike",
+        "author_website": "https://github.com/nynymike/agama-projects",
+        "github_uri": "https://github.com/nynymike/agama-projects",
+        "project_description": "Only let bob in",
+        "license": "MIT",
+        "last_updated": "1675678821647",
+        "project_type": "community"
+    },
+    "noPW": {
+        "gh_author": "nynymike",
+        "gh_repo_path": "agama-projects",
+        "project_name": "noPW",
+        "version": "0.0.1",
+        "author": "nynymike",
+        "author_website": "https://github.com/nynymike/agama-projects",
+        "github_uri": "https://github.com/nynymike/agama-projects",
+        "project_description": "Login without any creds",
+        "license": "MIT",
+        "last_updated": "1675690502972",
+        "project_type": "community"
+    }
+}
