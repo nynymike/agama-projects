@@ -3,6 +3,49 @@
 		{
 			"width": 140,
 			"height": 85,
+			"id": "Agama-rrf-Node-f711e9f1-af7a-4a28-afd3-1797a3d175bd",
+			"position": {
+				"x": 225,
+				"y": 30
+			},
+			"type": "rrf",
+			"data": {
+				"id": "Agama-rrf-Node-f711e9f1-af7a-4a28-afd3-1797a3d175bd",
+				"type": "Agama-rrf-Node",
+				"parentId": "Agama-start-Flow-467a0177-fb9c-49d9-a0b8-2018a7d068b7",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [],
+				"position": {
+					"x": 225,
+					"y": 30
+				},
+				"agamaData": {
+					"id": "Agama-rrf-Node-f711e9f1-af7a-4a28-afd3-1797a3d175bd",
+					"type": "Agama-rrf-Node",
+					"parentId": "Agama-start-Flow-467a0177-fb9c-49d9-a0b8-2018a7d068b7",
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"nodeColor": "",
+					"asssignedVariableName": "",
+					"comment": "",
+					"callType": "Call static method",
+					"logLevel": "info",
+					"arguments": "creds.username",
+					"templatePath": "uid.ftlh",
+					"displayName": "uid form"
+				}
+			},
+			"selected": true,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 225,
+				"y": 30
+			}
+		},
+		{
+			"width": 140,
+			"height": 85,
 			"id": "Agama-start-Flow-467a0177-fb9c-49d9-a0b8-2018a7d068b7",
 			"type": "start",
 			"sourcePosition": "right",
@@ -17,38 +60,16 @@
 				"agamaData": {
 					"id": "Agama-start-Flow-467a0177-fb9c-49d9-a0b8-2018a7d068b7",
 					"type": "Agama-start-Flow",
-					"hasSuccess": false,
-					"hasFailure": false,
-					"hasRepeat": false,
-					"hasNoRepeat": false,
-					"name": "",
-					"basepath": "",
+					"nodeColor": "",
+					"flowname": "com.nixu.sisuid",
+					"basepath": "sisuid",
 					"comment": "",
-					"flowfilename": "",
-					"assignedvariableName": "",
 					"callType": "Call static method",
-					"arguments": "",
-					"logMessage": "",
-					"variableType": "",
-					"templatePath": "",
-					"maxIteration": "",
-					"idpAuthEndpoint": "",
-					"whenVariable": "",
-					"whenConditionInputField": "",
-					"whenValue": "",
-					"returnVariable": "",
-					"asssignmentExpression": "",
-					"javaClassName": "",
-					"javaMethodName": "",
-					"javaVariableName": "",
-					"maxIterationVariableName": "",
-					"logLevel": "",
-					"assignCallbackResult": "",
-					"displayName": "",
-					"nodeColor": ""
+					"logLevel": "info"
 				},
 				"inRepeatBlock": false,
-				"whenCondition": ""
+				"whenCondition": "",
+				"nextNodeType": "Agama-rrf-Node"
 			},
 			"position": {
 				"x": 30,
@@ -57,10 +78,30 @@
 			"positionAbsolute": {
 				"x": 30,
 				"y": 30
+			},
+			"selected": false,
+			"dragging": false
+		}
+	],
+	"edges": [
+		{
+			"id": "Agama-start-Flow-467a0177-fb9c-49d9-a0b8-2018a7d068b7-Agama-rrf-Node-f711e9f1-af7a-4a28-afd3-1797a3d175bd-8011043f-d452-4d53-87bb-dbd9e20a967c",
+			"type": "straight",
+			"source": "Agama-start-Flow-467a0177-fb9c-49d9-a0b8-2018a7d068b7",
+			"target": "Agama-rrf-Node-f711e9f1-af7a-4a28-afd3-1797a3d175bd",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
 			}
 		}
 	],
-	"edges": [],
 	"viewport": {
 		"x": 10,
 		"y": 15,
