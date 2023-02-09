@@ -1,0 +1,11 @@
+Flow com.demo3.bob
+     Basepath "bob"
+uid-result = RRF "username.ftlh" creds.username
+RRF "pw.ftlh" __________
+fraud_detected = Call com.demo.security#DetectFraud request
+When fraud_detected is true
+     RRF "sms.ftlh" __________
+     Log "@ " __________
+     Finish true
+__________ = Trigger __________ __________
+__________ = RFAC __________
