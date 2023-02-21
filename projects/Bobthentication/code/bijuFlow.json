@@ -3,6 +3,50 @@
 		{
 			"width": 140,
 			"height": 85,
+			"id": "Agama-call-Node-a219ece5-d8a1-49b6-bf4d-9a36d2eee230",
+			"position": {
+				"x": 468,
+				"y": 36
+			},
+			"type": "call",
+			"data": {
+				"id": "Agama-call-Node-a219ece5-d8a1-49b6-bf4d-9a36d2eee230",
+				"type": "Agama-call-Node",
+				"parentId": "Agama-rrf-Node-ba6211fd-9978-4a39-b0c1-2b3654fcaeef",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [],
+				"position": {
+					"x": 468,
+					"y": 36
+				},
+				"agamaData": {
+					"id": "Agama-call-Node-a219ece5-d8a1-49b6-bf4d-9a36d2eee230",
+					"type": "Agama-call-Node",
+					"parentId": "Agama-rrf-Node-ba6211fd-9978-4a39-b0c1-2b3654fcaeef",
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"nodeColor": "",
+					"asssignedVariableName": "fraud_detected",
+					"comment": "",
+					"javaClassName": "com.fiorano.Fraud",
+					"javaMethodName": "DetectFraud",
+					"callType": "Call static method",
+					"logLevel": "info",
+					"arguments": "request",
+					"displayName": "Detect Fraud"
+				}
+			},
+			"selected": true,
+			"positionAbsolute": {
+				"x": 468,
+				"y": 36
+			},
+			"dragging": false
+		},
+		{
+			"width": 140,
+			"height": 85,
 			"id": "Agama-rrf-Node-ba6211fd-9978-4a39-b0c1-2b3654fcaeef",
 			"position": {
 				"x": 247,
@@ -34,9 +78,10 @@
 					"arguments": "creds.username",
 					"templatePath": "uid.ftlh",
 					"displayName": "UID Form"
-				}
+				},
+				"nextNodeType": "Agama-call-Node"
 			},
-			"selected": true,
+			"selected": false,
 			"positionAbsolute": {
 				"x": 247,
 				"y": 32
@@ -100,11 +145,28 @@
 				"color": "#fff",
 				"fillOpacity": 0.7
 			}
+		},
+		{
+			"id": "Agama-rrf-Node-ba6211fd-9978-4a39-b0c1-2b3654fcaeef-Agama-call-Node-a219ece5-d8a1-49b6-bf4d-9a36d2eee230-bdb57682-0b0b-4da1-b33a-e1f21d5c3381",
+			"type": "straight",
+			"source": "Agama-rrf-Node-ba6211fd-9978-4a39-b0c1-2b3654fcaeef",
+			"target": "Agama-call-Node-a219ece5-d8a1-49b6-bf4d-9a36d2eee230",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
 		}
 	],
 	"viewport": {
-		"x": 10,
-		"y": 15,
-		"zoom": 1
+		"x": -8.021831832424766,
+		"y": 3.881193156327157,
+		"zoom": 0.7821581369183396
 	}
 }
