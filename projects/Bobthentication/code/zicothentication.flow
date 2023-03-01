@@ -1,0 +1,10 @@
+Flow com.acme.zico.authn
+     Basepath "zico"
+uid-result = RRF "uid.ftlh" creds.username
+fraud_detected = Call com.acme.fraud#detect-FRAUD request
+When fraud_detected is true
+     RRF "__________" __________
+     Log "@ " __________
+     Finish true
+Log "@ " __________
+Finish __________
