@@ -24,5 +24,18 @@
         "license": "MIT",
         "last_updated": "1675690502972",
         "project_type": "community"
+    },
+    "AgamaLab": {
+        "gh_author": "nynymike",
+        "gh_repo_path": "agama-projects",
+        "project_name": "AgamaLab",
+        "version": "0.0.1",
+        "author": "nynymike",
+        "author_website": "https://github.com/nynymike/agama-projects",
+        "github_uri": "https://github.com/nynymike/agama-projects",
+        "project_description": "Login flow to access Gluu's SaaS ADS instance",
+        "license": "MIT",
+        "last_updated": "1677082314705",
+        "project_type": "community"
     }
 }

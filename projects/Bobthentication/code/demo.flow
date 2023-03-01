@@ -1,0 +1,9 @@
+Flow org.gluu.agama.projects.bob
+     Basepath "bob"
+uid-result = RRF "uid.ftlh" creds.username
+is_bob = Call org.gluu.authn.PersonChecker#isBob creds.username
+When is_bob is true
+     Log "@info It's bob"
+     Finish true
+Log "@info Failed, it's not bob, it's " creds.username
+Finish false
