@@ -1,56 +1,134 @@
-[
-  {
-    "id": "Agama-start-Flow-07386a87-ccd6-4e48-9eec-4add6ef7f99d",
-    "type": "start",
-    "sourcePosition": "right",
-    "data": {
-      "id": "Agama-start-Flow-07386a87-ccd6-4e48-9eec-4add6ef7f99d",
-      "type": "Agama-start-Flow",
-      "position": {
-        "x": 30,
-        "y": 30
-      },
-      "handles": [],
-      "agamaData": {
-        "id": "Agama-start-Flow-07386a87-ccd6-4e48-9eec-4add6ef7f99d",
-        "type": "Agama-start-Flow",
-        "hasSuccess": false,
-        "hasFailure": false,
-        "hasRepeat": false,
-        "hasNoRepeat": false,
-        "name": "",
-        "basepath": "citec",
-        "comment": "",
-        "flowfilename": "",
-        "assignedvariableName": "",
-        "callType": "Call static method",
-        "arguments": "",
-        "logMessage": "",
-        "variableType": "",
-        "templatePath": "",
-        "maxIteration": "",
-        "idpAuthEndpoint": "",
-        "whenVariable": "",
-        "whenConditionInputField": "",
-        "whenValue": "",
-        "returnVariable": "",
-        "asssignmentExpression": "",
-        "javaClassName": "",
-        "javaMethodName": "",
-        "javaVariableName": "",
-        "maxIterationVariableName": "",
-        "logLevel": "",
-        "assignCallbackResult": "",
-        "displayName": "CITEC",
-        "nodeColor": "",
-        "flowname": "au.gov.citec.demo"
-      },
-      "inRepeatBlock": false,
-      "whenCondition": ""
-    },
-    "position": {
-      "x": 30,
-      "y": 30
-    }
-  }
-]
+{
+	"nodes": [
+		{
+			"width": 140,
+			"height": 85,
+			"id": "Agama-rrf-Node-830e866c-0e22-4a8b-b686-52edbb61eaee",
+			"position": {
+				"x": 237,
+				"y": 31
+			},
+			"type": "rrf",
+			"data": {
+				"id": "Agama-rrf-Node-830e866c-0e22-4a8b-b686-52edbb61eaee",
+				"type": "Agama-rrf-Node",
+				"parentId": "Agama-start-Flow-07386a87-ccd6-4e48-9eec-4add6ef7f99d",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [],
+				"position": {
+					"x": 237,
+					"y": 31
+				},
+				"agamaData": {
+					"id": "Agama-rrf-Node-830e866c-0e22-4a8b-b686-52edbb61eaee",
+					"type": "Agama-rrf-Node",
+					"parentId": "Agama-start-Flow-07386a87-ccd6-4e48-9eec-4add6ef7f99d",
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"nodeColor": "",
+					"asssignedVariableName": "uid-result",
+					"comment": "",
+					"callType": "Call static method",
+					"logLevel": "info",
+					"arguments": "creds.username",
+					"templatePath": "uid.ftlh",
+					"displayName": "uid form"
+				}
+			},
+			"selected": true,
+			"positionAbsolute": {
+				"x": 237,
+				"y": 31
+			},
+			"dragging": false
+		},
+		{
+			"width": 140,
+			"height": 85,
+			"id": "Agama-start-Flow-07386a87-ccd6-4e48-9eec-4add6ef7f99d",
+			"type": "start",
+			"sourcePosition": "right",
+			"data": {
+				"id": "Agama-start-Flow-07386a87-ccd6-4e48-9eec-4add6ef7f99d",
+				"type": "Agama-start-Flow",
+				"position": {
+					"x": 30,
+					"y": 30
+				},
+				"handles": [],
+				"agamaData": {
+					"id": "Agama-start-Flow-07386a87-ccd6-4e48-9eec-4add6ef7f99d",
+					"type": "Agama-start-Flow",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasNoRepeat": false,
+					"name": "",
+					"basepath": "citec",
+					"comment": "",
+					"flowfilename": "",
+					"assignedvariableName": "",
+					"callType": "Call static method",
+					"arguments": "",
+					"logMessage": "",
+					"variableType": "",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"whenVariable": "",
+					"whenConditionInputField": "",
+					"whenValue": "",
+					"returnVariable": "",
+					"asssignmentExpression": "",
+					"javaClassName": "",
+					"javaMethodName": "",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "",
+					"displayName": "CITEC",
+					"nodeColor": "",
+					"flowname": "au.gov.citec.demo"
+				},
+				"inRepeatBlock": false,
+				"whenCondition": "",
+				"nextNodeType": "Agama-rrf-Node"
+			},
+			"position": {
+				"x": 30,
+				"y": 30
+			},
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 30,
+				"y": 30
+			}
+		}
+	],
+	"edges": [
+		{
+			"id": "Agama-start-Flow-07386a87-ccd6-4e48-9eec-4add6ef7f99d-Agama-rrf-Node-830e866c-0e22-4a8b-b686-52edbb61eaee-826099f0-5d72-4bac-b45f-6f87a2074711",
+			"type": "straight",
+			"source": "Agama-start-Flow-07386a87-ccd6-4e48-9eec-4add6ef7f99d",
+			"target": "Agama-rrf-Node-830e866c-0e22-4a8b-b686-52edbb61eaee",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
+		}
+	],
+	"viewport": {
+		"x": 43,
+		"y": 106,
+		"zoom": 1
+	}
+}
