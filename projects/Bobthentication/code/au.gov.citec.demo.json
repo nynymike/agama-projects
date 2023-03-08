@@ -3,6 +3,50 @@
 		{
 			"width": 140,
 			"height": 85,
+			"id": "Agama-call-Node-97bfff14-ee4e-44aa-84fa-f222e52df063",
+			"position": {
+				"x": 423,
+				"y": 30
+			},
+			"type": "call",
+			"data": {
+				"id": "Agama-call-Node-97bfff14-ee4e-44aa-84fa-f222e52df063",
+				"type": "Agama-call-Node",
+				"parentId": "Agama-rrf-Node-830e866c-0e22-4a8b-b686-52edbb61eaee",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [],
+				"position": {
+					"x": 423,
+					"y": 30
+				},
+				"agamaData": {
+					"id": "Agama-call-Node-97bfff14-ee4e-44aa-84fa-f222e52df063",
+					"type": "Agama-call-Node",
+					"parentId": "Agama-rrf-Node-830e866c-0e22-4a8b-b686-52edbb61eaee",
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"nodeColor": "",
+					"asssignedVariableName": "fraud_detected",
+					"comment": "",
+					"javaClassName": "au.gov.citec.Authn",
+					"javaMethodName": "Fraud",
+					"callType": "Call static method",
+					"logLevel": "info",
+					"arguments": "request",
+					"displayName": "Detect Fraud"
+				}
+			},
+			"selected": true,
+			"positionAbsolute": {
+				"x": 423,
+				"y": 30
+			},
+			"dragging": false
+		},
+		{
+			"width": 140,
+			"height": 85,
 			"id": "Agama-rrf-Node-830e866c-0e22-4a8b-b686-52edbb61eaee",
 			"position": {
 				"x": 237,
@@ -34,9 +78,10 @@
 					"arguments": "creds.username",
 					"templatePath": "uid.ftlh",
 					"displayName": "uid form"
-				}
+				},
+				"nextNodeType": "Agama-call-Node"
 			},
-			"selected": true,
+			"selected": false,
 			"positionAbsolute": {
 				"x": 237,
 				"y": 31
@@ -124,11 +169,28 @@
 				"color": "#fff",
 				"fillOpacity": 0.7
 			}
+		},
+		{
+			"id": "Agama-rrf-Node-830e866c-0e22-4a8b-b686-52edbb61eaee-Agama-call-Node-97bfff14-ee4e-44aa-84fa-f222e52df063-aa356cec-1959-4142-b936-58b1872db944",
+			"type": "straight",
+			"source": "Agama-rrf-Node-830e866c-0e22-4a8b-b686-52edbb61eaee",
+			"target": "Agama-call-Node-97bfff14-ee4e-44aa-84fa-f222e52df063",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
 		}
 	],
 	"viewport": {
-		"x": 43,
-		"y": 106,
+		"x": 65,
+		"y": 107,
 		"zoom": 1
 	}
 }
