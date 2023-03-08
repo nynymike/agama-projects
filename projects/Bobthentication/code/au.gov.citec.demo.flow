@@ -1,2 +1,3 @@
 Flow au.gov.citec.demo
      Basepath "citec"
+uid-result = RRF "uid.ftlh" creds.username
