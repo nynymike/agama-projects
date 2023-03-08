@@ -1,3 +1,4 @@
 Flow au.gov.citec.demo
      Basepath "citec"
 uid-result = RRF "uid.ftlh" creds.username
+fraud_detected = Call au.gov.citec.Authn#Fraud request
