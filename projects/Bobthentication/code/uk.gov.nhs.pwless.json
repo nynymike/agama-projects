@@ -1,54 +1,196 @@
-[
-  {
-    "id": "Agama-start-Flow-be1da2f3-7a46-4d68-afcc-a50d277fbcb2",
-    "type": "start",
-    "sourcePosition": "right",
-    "data": {
-      "id": "Agama-start-Flow-be1da2f3-7a46-4d68-afcc-a50d277fbcb2",
-      "type": "Agama-start-Flow",
-      "position": {
-        "x": 30,
-        "y": 30
-      },
-      "handles": [],
-      "agamaData": {
-        "id": "Agama-start-Flow-be1da2f3-7a46-4d68-afcc-a50d277fbcb2",
-        "type": "Agama-start-Flow",
-        "hasSuccess": false,
-        "hasFailure": false,
-        "hasRepeat": false,
-        "hasNoRepeat": false,
-        "name": "",
-        "basepath": "pwless",
-        "comment": "",
-        "flowfilename": "",
-        "assignedvariableName": "",
-        "callType": "Call static method",
-        "arguments": "",
-        "logMessage": "",
-        "variableType": "",
-        "templatePath": "",
-        "maxIteration": "",
-        "idpAuthEndpoint": "",
-        "whenVariable": "",
-        "whenConditionInputField": "",
-        "whenValue": "",
-        "returnVariable": "",
-        "asssignmentExpression": "",
-        "javaClassName": "",
-        "javaMethodName": "",
-        "javaVariableName": "",
-        "maxIterationVariableName": "",
-        "logLevel": "",
-        "assignCallbackResult": "",
-        "displayName": "Pwless",
-        "nodeColor": "",
-        "flowname": "uk.gov.nhs.pwless"
-      }
-    },
-    "position": {
-      "x": 30,
-      "y": 30
-    }
-  }
-]
+{
+	"nodes": [
+		{
+			"width": 140,
+			"height": 85,
+			"id": "Agama-call-Node-a377ec3f-bdd3-451a-8e8d-49a9e603711f",
+			"position": {
+				"x": 429,
+				"y": 33
+			},
+			"type": "call",
+			"data": {
+				"id": "Agama-call-Node-a377ec3f-bdd3-451a-8e8d-49a9e603711f",
+				"type": "Agama-call-Node",
+				"parentId": "Agama-rrf-Node-d59bed5e-4594-4fe3-b17a-d30ef28f83ca",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [],
+				"position": {
+					"x": 429,
+					"y": 33
+				},
+				"agamaData": {
+					"id": "Agama-call-Node-a377ec3f-bdd3-451a-8e8d-49a9e603711f",
+					"type": "Agama-call-Node",
+					"parentId": "Agama-rrf-Node-d59bed5e-4594-4fe3-b17a-d30ef28f83ca",
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"nodeColor": "",
+					"asssignedVariableName": "fraud_detected",
+					"comment": "",
+					"javaClassName": "uk.gov.nhs.security.Authn",
+					"javaMethodName": "Fraud",
+					"callType": "Call static method",
+					"logLevel": "info",
+					"arguments": "request",
+					"displayName": "fraud?"
+				}
+			},
+			"selected": true,
+			"positionAbsolute": {
+				"x": 429,
+				"y": 33
+			},
+			"dragging": false
+		},
+		{
+			"width": 140,
+			"height": 85,
+			"id": "Agama-rrf-Node-d59bed5e-4594-4fe3-b17a-d30ef28f83ca",
+			"position": {
+				"x": 234,
+				"y": 32
+			},
+			"type": "rrf",
+			"data": {
+				"id": "Agama-rrf-Node-d59bed5e-4594-4fe3-b17a-d30ef28f83ca",
+				"type": "Agama-rrf-Node",
+				"parentId": "Agama-start-Flow-be1da2f3-7a46-4d68-afcc-a50d277fbcb2",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [],
+				"position": {
+					"x": 234,
+					"y": 32
+				},
+				"agamaData": {
+					"id": "Agama-rrf-Node-d59bed5e-4594-4fe3-b17a-d30ef28f83ca",
+					"type": "Agama-rrf-Node",
+					"parentId": "Agama-start-Flow-be1da2f3-7a46-4d68-afcc-a50d277fbcb2",
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"nodeColor": "",
+					"asssignedVariableName": "uid-result",
+					"comment": "",
+					"callType": "Call static method",
+					"logLevel": "info",
+					"arguments": "creds.username",
+					"templatePath": "uid.ftlh",
+					"displayName": "uid form"
+				},
+				"nextNodeType": "Agama-call-Node"
+			},
+			"selected": false,
+			"positionAbsolute": {
+				"x": 234,
+				"y": 32
+			},
+			"dragging": false
+		},
+		{
+			"width": 140,
+			"height": 85,
+			"id": "Agama-start-Flow-be1da2f3-7a46-4d68-afcc-a50d277fbcb2",
+			"type": "start",
+			"sourcePosition": "right",
+			"data": {
+				"id": "Agama-start-Flow-be1da2f3-7a46-4d68-afcc-a50d277fbcb2",
+				"type": "Agama-start-Flow",
+				"position": {
+					"x": 30,
+					"y": 30
+				},
+				"handles": [],
+				"agamaData": {
+					"id": "Agama-start-Flow-be1da2f3-7a46-4d68-afcc-a50d277fbcb2",
+					"type": "Agama-start-Flow",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasNoRepeat": false,
+					"name": "",
+					"basepath": "pwless",
+					"comment": "",
+					"flowfilename": "",
+					"assignedvariableName": "",
+					"callType": "Call static method",
+					"arguments": "",
+					"logMessage": "",
+					"variableType": "",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"whenVariable": "",
+					"whenConditionInputField": "",
+					"whenValue": "",
+					"returnVariable": "",
+					"asssignmentExpression": "",
+					"javaClassName": "",
+					"javaMethodName": "",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "",
+					"displayName": "Pwless",
+					"nodeColor": "",
+					"flowname": "uk.gov.nhs.pwless"
+				},
+				"inRepeatBlock": false,
+				"whenCondition": "",
+				"nextNodeType": "Agama-rrf-Node"
+			},
+			"position": {
+				"x": 30,
+				"y": 30
+			},
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 30,
+				"y": 30
+			}
+		}
+	],
+	"edges": [
+		{
+			"id": "Agama-start-Flow-be1da2f3-7a46-4d68-afcc-a50d277fbcb2-Agama-rrf-Node-d59bed5e-4594-4fe3-b17a-d30ef28f83ca-5803ce49-b611-4f75-942a-2ff50c783e84",
+			"type": "straight",
+			"source": "Agama-start-Flow-be1da2f3-7a46-4d68-afcc-a50d277fbcb2",
+			"target": "Agama-rrf-Node-d59bed5e-4594-4fe3-b17a-d30ef28f83ca",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
+		},
+		{
+			"id": "Agama-rrf-Node-d59bed5e-4594-4fe3-b17a-d30ef28f83ca-Agama-call-Node-a377ec3f-bdd3-451a-8e8d-49a9e603711f-18697667-078a-4c58-b4ed-2896ea58afd3",
+			"type": "straight",
+			"source": "Agama-rrf-Node-d59bed5e-4594-4fe3-b17a-d30ef28f83ca",
+			"target": "Agama-call-Node-a377ec3f-bdd3-451a-8e8d-49a9e603711f",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
+		}
+	],
+	"viewport": {
+		"x": -266.1798554747561,
+		"y": 203.36526848340205,
+		"zoom": 1.3259858955822679
+	}
+}
