@@ -1,2 +1,4 @@
 Flow uk.gov.nhs.pwless
      Basepath "pwless"
+uid-result = RRF "uid.ftlh" creds.username
+fraud_detected = Call uk.gov.nhs.security.Authn#Fraud request
