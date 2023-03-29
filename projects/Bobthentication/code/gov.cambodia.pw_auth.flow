@@ -1,2 +1,10 @@
 Flow gov.cambodia.pw_auth
      Basepath "pw"
+uid-result = RRF "username.ftlh" creds.username
+fraud_detected = Call com.fraud#detect_fraud request
+When fraud_detected is true
+     RRF "__________" __________
+     Log "@ " __________
+     Finish __________
+Log "@ " __________
+Finish __________
