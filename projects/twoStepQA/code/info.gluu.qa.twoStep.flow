@@ -7,5 +7,5 @@ When notBob is true
      Log "@info Oh no--it's Bob"
      RRF "__________" __________
      Finish __________
-Log "@ " __________
+Log "@info Ok it's:" creds.uid
 Finish __________
