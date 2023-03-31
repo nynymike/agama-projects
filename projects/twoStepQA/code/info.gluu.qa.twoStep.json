@@ -1,55 +1,134 @@
-[
-  {
-    "id": "Agama-start-Flow-ef32f62a-6039-4ba0-8528-efe2e5b45837",
-    "type": "start",
-    "sourcePosition": "right",
-    "data": {
-      "id": "Agama-start-Flow-ef32f62a-6039-4ba0-8528-efe2e5b45837",
-      "type": "Agama-start-Flow",
-      "position": {
-        "x": 30,
-        "y": 30
-      },
-      "handles": [],
-      "agamaData": {
-        "id": "Agama-start-Flow-ef32f62a-6039-4ba0-8528-efe2e5b45837",
-        "type": "Agama-start-Flow",
-        "hasSuccess": false,
-        "hasFailure": false,
-        "hasRepeat": false,
-        "hasNoRepeat": false,
-        "name": "",
-        "basepath": "twoStep",
-        "comment": "",
-        "notes": "",
-        "flowfilename": "",
-        "assignedvariableName": "",
-        "callType": "Call static method",
-        "arguments": "",
-        "logMessage": "",
-        "variableType": "",
-        "templatePath": "",
-        "maxIteration": "",
-        "idpAuthEndpoint": "",
-        "whenVariable": "",
-        "whenConditionInputField": "",
-        "whenValue": "",
-        "returnVariable": "",
-        "asssignmentExpression": "",
-        "javaClassName": "",
-        "javaMethodName": "",
-        "javaVariableName": "",
-        "maxIterationVariableName": "",
-        "logLevel": "",
-        "assignCallbackResult": "",
-        "displayName": "Two Step",
-        "nodeColor": "",
-        "flowname": "info.gluu.qa.twoStep"
-      }
-    },
-    "position": {
-      "x": 30,
-      "y": 30
-    }
-  }
-]
+{
+	"nodes": [
+		{
+			"width": 170,
+			"height": 122,
+			"id": "Agama-rrf-Node-177a6fbc-3f89-4440-b594-ccf46f4bcd9a",
+			"position": {
+				"x": 230,
+				"y": 30
+			},
+			"type": "rrf",
+			"data": {
+				"id": "Agama-rrf-Node-177a6fbc-3f89-4440-b594-ccf46f4bcd9a",
+				"type": "Agama-rrf-Node",
+				"parentId": "Agama-start-Flow-ef32f62a-6039-4ba0-8528-efe2e5b45837",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [],
+				"position": {
+					"x": 230,
+					"y": 30
+				},
+				"agamaData": {
+					"id": "Agama-rrf-Node-177a6fbc-3f89-4440-b594-ccf46f4bcd9a",
+					"type": "Agama-rrf-Node",
+					"parentId": "Agama-start-Flow-ef32f62a-6039-4ba0-8528-efe2e5b45837",
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"nodeColor": "",
+					"asssignedVariableName": "step1-result",
+					"comment": "",
+					"callType": "Call static method",
+					"logLevel": "info",
+					"arguments": "creds.uid",
+					"templatePath": "step1.ftlh",
+					"displayName": "UID Form"
+				}
+			},
+			"selected": true,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 230,
+				"y": 30
+			}
+		},
+		{
+			"width": 170,
+			"height": 122,
+			"id": "Agama-start-Flow-ef32f62a-6039-4ba0-8528-efe2e5b45837",
+			"type": "start",
+			"sourcePosition": "right",
+			"data": {
+				"id": "Agama-start-Flow-ef32f62a-6039-4ba0-8528-efe2e5b45837",
+				"type": "Agama-start-Flow",
+				"position": {
+					"x": 30,
+					"y": 30
+				},
+				"handles": [],
+				"agamaData": {
+					"id": "Agama-start-Flow-ef32f62a-6039-4ba0-8528-efe2e5b45837",
+					"type": "Agama-start-Flow",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasNoRepeat": false,
+					"name": "",
+					"basepath": "twoStep",
+					"comment": "",
+					"notes": "",
+					"flowfilename": "",
+					"assignedvariableName": "",
+					"callType": "Call static method",
+					"arguments": "",
+					"logMessage": "",
+					"variableType": "",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"whenVariable": "",
+					"whenConditionInputField": "",
+					"whenValue": "",
+					"returnVariable": "",
+					"asssignmentExpression": "",
+					"javaClassName": "",
+					"javaMethodName": "",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "",
+					"displayName": "Two Step",
+					"nodeColor": "",
+					"flowname": "info.gluu.qa.twoStep"
+				},
+				"inRepeatBlock": false,
+				"whenCondition": ""
+			},
+			"position": {
+				"x": 30,
+				"y": 30
+			},
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 30,
+				"y": 30
+			}
+		}
+	],
+	"edges": [
+		{
+			"id": "Agama-start-Flow-ef32f62a-6039-4ba0-8528-efe2e5b45837-Agama-rrf-Node-177a6fbc-3f89-4440-b594-ccf46f4bcd9a-2aea9a8a-64ef-4a43-8af3-54f2bac86752",
+			"type": "straight",
+			"source": "Agama-start-Flow-ef32f62a-6039-4ba0-8528-efe2e5b45837",
+			"target": "Agama-rrf-Node-177a6fbc-3f89-4440-b594-ccf46f4bcd9a",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
+		}
+	],
+	"viewport": {
+		"x": 121.2322319799353,
+		"y": 210.12495147141286,
+		"zoom": 0.9619845930349046
+	}
+}
