@@ -3,6 +3,49 @@
 		{
 			"width": 170,
 			"height": 122,
+			"id": "Agama-rrf-Node-b1462d67-ba37-4858-81ef-8bdd2dfbb934",
+			"position": {
+				"x": 457.79291717406284,
+				"y": 29.39107006422583
+			},
+			"type": "rrf",
+			"data": {
+				"id": "Agama-rrf-Node-b1462d67-ba37-4858-81ef-8bdd2dfbb934",
+				"type": "Agama-rrf-Node",
+				"parentId": "Agama-rrf-Node-177a6fbc-3f89-4440-b594-ccf46f4bcd9a",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [],
+				"position": {
+					"x": 457.79291717406284,
+					"y": 29.39107006422583
+				},
+				"agamaData": {
+					"id": "Agama-rrf-Node-b1462d67-ba37-4858-81ef-8bdd2dfbb934",
+					"type": "Agama-rrf-Node",
+					"parentId": "Agama-rrf-Node-177a6fbc-3f89-4440-b594-ccf46f4bcd9a",
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"nodeColor": "",
+					"asssignedVariableName": "step2-result",
+					"comment": "Enter the password",
+					"callType": "Call static method",
+					"logLevel": "info",
+					"arguments": "creds.pw",
+					"templatePath": "step2.ftlh",
+					"displayName": "PW Form"
+				}
+			},
+			"selected": true,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 457.79291717406284,
+				"y": 29.39107006422583
+			}
+		},
+		{
+			"width": 170,
+			"height": 122,
 			"id": "Agama-rrf-Node-177a6fbc-3f89-4440-b594-ccf46f4bcd9a",
 			"position": {
 				"x": 256.79291717406284,
@@ -37,7 +80,7 @@
 					"notes": "Step 1"
 				}
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 256.79291717406284,
@@ -125,11 +168,28 @@
 				"color": "#fff",
 				"fillOpacity": 0.7
 			}
+		},
+		{
+			"id": "Agama-rrf-Node-177a6fbc-3f89-4440-b594-ccf46f4bcd9a-Agama-rrf-Node-b1462d67-ba37-4858-81ef-8bdd2dfbb934-80568709-1e9a-42bb-84c9-ec06d8d73c47",
+			"type": "straight",
+			"source": "Agama-rrf-Node-177a6fbc-3f89-4440-b594-ccf46f4bcd9a",
+			"target": "Agama-rrf-Node-b1462d67-ba37-4858-81ef-8bdd2dfbb934",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
 		}
 	],
 	"viewport": {
-		"x": 25.055742777762134,
-		"y": 142.63392001277543,
-		"zoom": 1.6422250594867862
+		"x": 30,
+		"y": 73,
+		"zoom": 1
 	}
 }
