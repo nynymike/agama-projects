@@ -3,6 +3,50 @@
 		{
 			"width": 170,
 			"height": 122,
+			"id": "Agama-call-Node-be438c1b-349a-47bc-8da6-a9eeae56d590",
+			"position": {
+				"x": 657.7929171740628,
+				"y": 29.39107006422583
+			},
+			"type": "call",
+			"data": {
+				"id": "Agama-call-Node-be438c1b-349a-47bc-8da6-a9eeae56d590",
+				"type": "Agama-call-Node",
+				"parentId": "Agama-rrf-Node-b1462d67-ba37-4858-81ef-8bdd2dfbb934",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [],
+				"position": {
+					"x": 657.7929171740628,
+					"y": 29.39107006422583
+				},
+				"agamaData": {
+					"id": "Agama-call-Node-be438c1b-349a-47bc-8da6-a9eeae56d590",
+					"type": "Agama-call-Node",
+					"parentId": "Agama-rrf-Node-b1462d67-ba37-4858-81ef-8bdd2dfbb934",
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"nodeColor": "",
+					"asssignedVariableName": "notBob",
+					"comment": " uid != bob ?",
+					"javaClassName": "info.gluu.qa.PersonChecker",
+					"javaMethodName": "notBob",
+					"callType": "Call static method",
+					"logLevel": "info",
+					"arguments": "creds.username",
+					"displayName": "Call PersonChecker"
+				}
+			},
+			"selected": true,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 657.7929171740628,
+				"y": 29.39107006422583
+			}
+		},
+		{
+			"width": 170,
+			"height": 122,
 			"id": "Agama-rrf-Node-b1462d67-ba37-4858-81ef-8bdd2dfbb934",
 			"position": {
 				"x": 457.79291717406284,
@@ -36,7 +80,7 @@
 					"displayName": "PW Form"
 				}
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 457.79291717406284,
@@ -185,11 +229,28 @@
 				"color": "#fff",
 				"fillOpacity": 0.7
 			}
+		},
+		{
+			"id": "Agama-rrf-Node-b1462d67-ba37-4858-81ef-8bdd2dfbb934-Agama-call-Node-be438c1b-349a-47bc-8da6-a9eeae56d590-699c41ce-ddd6-4313-8085-52fd31c73d7a",
+			"type": "straight",
+			"source": "Agama-rrf-Node-b1462d67-ba37-4858-81ef-8bdd2dfbb934",
+			"target": "Agama-call-Node-be438c1b-349a-47bc-8da6-a9eeae56d590",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
 		}
 	],
 	"viewport": {
-		"x": 30,
-		"y": 73,
-		"zoom": 1
+		"x": -19.05946218545489,
+		"y": 256.12137452445774,
+		"zoom": 1.0055609207312803
 	}
 }
