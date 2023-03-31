@@ -5,8 +5,8 @@
 			"height": 122,
 			"id": "Agama-rrf-Node-177a6fbc-3f89-4440-b594-ccf46f4bcd9a",
 			"position": {
-				"x": 230,
-				"y": 30
+				"x": 256.79291717406284,
+				"y": 29.39107006422583
 			},
 			"type": "rrf",
 			"data": {
@@ -17,8 +17,8 @@
 				"inRepeatBlock": false,
 				"handles": [],
 				"position": {
-					"x": 230,
-					"y": 30
+					"x": 256.79291717406284,
+					"y": 29.39107006422583
 				},
 				"agamaData": {
 					"id": "Agama-rrf-Node-177a6fbc-3f89-4440-b594-ccf46f4bcd9a",
@@ -28,19 +28,20 @@
 					"inRepeatBlock": false,
 					"nodeColor": "",
 					"asssignedVariableName": "step1-result",
-					"comment": "",
+					"comment": "Enter the username",
 					"callType": "Call static method",
 					"logLevel": "info",
 					"arguments": "creds.uid",
 					"templatePath": "step1.ftlh",
-					"displayName": "UID Form"
+					"displayName": "UID Form",
+					"notes": "Step 1"
 				}
 			},
 			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 230,
-				"y": 30
+				"x": 256.79291717406284,
+				"y": 29.39107006422583
 			}
 		},
 		{
@@ -67,7 +68,7 @@
 					"name": "",
 					"basepath": "twoStep",
 					"comment": "",
-					"notes": "",
+					"notes": "Start here...",
 					"flowfilename": "",
 					"assignedvariableName": "",
 					"callType": "Call static method",
@@ -127,8 +128,8 @@
 		}
 	],
 	"viewport": {
-		"x": 121.2322319799353,
-		"y": 210.12495147141286,
-		"zoom": 0.9619845930349046
+		"x": 25.055742777762134,
+		"y": 142.63392001277543,
+		"zoom": 1.6422250594867862
 	}
 }
