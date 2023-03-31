@@ -26,45 +26,23 @@
 				"agamaData": {
 					"id": "finish-05e5c02f-05bf-433f-b428-ccc84fdc0af0",
 					"type": "Agama-finish-Flow",
-					"hasSuccess": false,
-					"hasFailure": false,
-					"hasRepeat": false,
-					"hasNoRepeat": false,
+					"parentId": "Agama-rrf-Node-98e3363f-01ba-4dd0-8cb8-d72e8346828c",
 					"whenCondition": "",
 					"inRepeatBlock": false,
-					"parentId": "Agama-rrf-Node-98e3363f-01ba-4dd0-8cb8-d72e8346828c",
-					"name": "",
-					"basepath": "",
+					"nodeColor": "",
 					"comment": "",
-					"notes": "",
-					"flowfilename": "",
-					"assignedvariableName": "",
 					"callType": "Call static method",
-					"arguments": "",
-					"logMessage": "",
-					"variableType": "",
-					"templatePath": "",
-					"maxIteration": "",
-					"idpAuthEndpoint": "",
-					"whenVariable": "",
-					"whenConditionInputField": "",
-					"whenValue": "",
-					"returnVariable": "",
-					"asssignmentExpression": "",
-					"javaClassName": "",
-					"javaMethodName": "",
-					"javaVariableName": "",
-					"maxIterationVariableName": "",
-					"logLevel": "",
-					"assignCallbackResult": "",
-					"displayName": "",
-					"nodeColor": ""
+					"logLevel": "info",
+					"returnVariable": "false",
+					"displayName": "Fail"
 				}
 			},
 			"positionAbsolute": {
 				"x": 1510.0186936672335,
 				"y": 286.5403845976857
-			}
+			},
+			"selected": true,
+			"dragging": false
 		},
 		{
 			"width": 170,
@@ -160,45 +138,23 @@
 				"agamaData": {
 					"id": "finish-b07449a9-5d6c-43fd-b635-671c15b70dd4",
 					"type": "Agama-finish-Flow",
-					"hasSuccess": false,
-					"hasFailure": false,
-					"hasRepeat": false,
-					"hasNoRepeat": false,
+					"parentId": "Agama-log-Node-2a7dcda8-67d8-44f7-b9cb-524f45b5324f",
 					"whenCondition": "",
 					"inRepeatBlock": false,
-					"parentId": "Agama-log-Node-2a7dcda8-67d8-44f7-b9cb-524f45b5324f",
-					"name": "",
-					"basepath": "",
+					"nodeColor": "",
 					"comment": "",
-					"notes": "",
-					"flowfilename": "",
-					"assignedvariableName": "",
 					"callType": "Call static method",
-					"arguments": "",
-					"logMessage": "",
-					"variableType": "",
-					"templatePath": "",
-					"maxIteration": "",
-					"idpAuthEndpoint": "",
-					"whenVariable": "",
-					"whenConditionInputField": "",
-					"whenValue": "",
-					"returnVariable": "",
-					"asssignmentExpression": "",
-					"javaClassName": "",
-					"javaMethodName": "",
-					"javaVariableName": "",
-					"maxIterationVariableName": "",
-					"logLevel": "",
-					"assignCallbackResult": "",
-					"displayName": "",
-					"nodeColor": ""
+					"logLevel": "info",
+					"returnVariable": "true",
+					"displayName": "Success"
 				}
 			},
 			"positionAbsolute": {
 				"x": 1319.7265551591918,
 				"y": 30.385539896319898
-			}
+			},
+			"selected": false,
+			"dragging": false
 		},
 		{
 			"width": 170,
@@ -693,8 +649,8 @@
 		}
 	],
 	"viewport": {
-		"x": -529,
-		"y": 112,
+		"x": -693,
+		"y": 135,
 		"zoom": 1
 	}
 }
