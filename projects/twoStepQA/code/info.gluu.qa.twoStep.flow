@@ -1,2 +1,3 @@
 Flow info.gluu.qa.twoStep
      Basepath "twoStep"
+step1-result = RRF "step1.ftlh" creds.uid
