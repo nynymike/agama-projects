@@ -5,7 +5,7 @@ step2-result = RRF "step2.ftlh" creds.pw
 notBob = Call info.gluu.qa.PersonChecker#notBob creds.username
 When notBob is true
      Log "@info Oh no--it's Bob"
-     RRF "__________" __________
+     RRF "fail.ftlh" __________
      Finish false
 Log "@info Ok it's:" creds.uid
 Finish true
