@@ -270,39 +270,15 @@
 				"agamaData": {
 					"id": "Agama-log-Node-2a7dcda8-67d8-44f7-b9cb-524f45b5324f",
 					"type": "Agama-log-Node",
-					"hasSuccess": false,
-					"hasFailure": false,
-					"hasRepeat": false,
-					"hasNoRepeat": false,
+					"parentId": "Agama-when-Node-c256b1e7-ca30-4d9f-97f5-f39d82d30741",
 					"whenCondition": "WhenFalse",
 					"inRepeatBlock": false,
-					"parentId": "Agama-when-Node-c256b1e7-ca30-4d9f-97f5-f39d82d30741",
-					"name": "",
-					"basepath": "",
-					"comment": "",
-					"notes": "",
-					"flowfilename": "",
-					"assignedvariableName": "",
+					"nodeColor": "",
+					"comment": "\"Ok it's:\" creds.uid",
 					"callType": "Call static method",
-					"arguments": "",
-					"logMessage": "",
-					"variableType": "",
-					"templatePath": "",
-					"maxIteration": "",
-					"idpAuthEndpoint": "",
-					"whenVariable": "",
-					"whenConditionInputField": "",
-					"whenValue": "",
-					"returnVariable": "",
-					"asssignmentExpression": "",
-					"javaClassName": "",
-					"javaMethodName": "",
-					"javaVariableName": "",
-					"maxIterationVariableName": "",
-					"logLevel": "",
-					"assignCallbackResult": "",
-					"displayName": "",
-					"nodeColor": ""
+					"logLevel": "info",
+					"logMessage": "\"Ok it's:\" creds.uid",
+					"displayName": "Log uid"
 				}
 			},
 			"selected": false,
@@ -717,8 +693,8 @@
 		}
 	],
 	"viewport": {
-		"x": -266,
-		"y": 58,
+		"x": -529,
+		"y": 112,
 		"zoom": 1
 	}
 }
