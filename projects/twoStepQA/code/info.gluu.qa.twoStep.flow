@@ -6,6 +6,6 @@ notBob = Call info.gluu.qa.PersonChecker#notBob creds.username
 When notBob is true
      Log "@info Oh no--it's Bob"
      RRF "__________" __________
-     Finish __________
+     Finish false
 Log "@info Ok it's:" creds.uid
-Finish __________
+Finish true
