@@ -3,3 +3,9 @@ Flow info.gluu.qa.twoStep
 step1-result = RRF "step1.ftlh" creds.uid
 step2-result = RRF "step2.ftlh" creds.pw
 notBob = Call info.gluu.qa.PersonChecker#notBob creds.username
+When notBob is true
+     Log "@ " __________
+     RRF "__________" __________
+     Finish __________
+Log "@ " __________
+Finish __________
