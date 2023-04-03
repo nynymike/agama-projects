@@ -127,7 +127,7 @@
 					"nodeColor": ""
 				}
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1035,
@@ -349,7 +349,7 @@
 				"id": "Agama-when-Node-982d29cf-db2b-4099-8f00-5908ad28cd85",
 				"type": "Agama-when-Node",
 				"parentId": "Agama-call-Node-e41bf639-ea7f-4250-b576-9af83754f604",
-				"whenCondition": "WhenFalse",
+				"whenCondition": "",
 				"inRepeatBlock": false,
 				"handles": [
 					"Agama-when-Node-982d29cf-db2b-4099-8f00-5908ad28cd85.FAILURE",
@@ -362,42 +362,19 @@
 				"agamaData": {
 					"id": "Agama-when-Node-982d29cf-db2b-4099-8f00-5908ad28cd85",
 					"type": "Agama-when-Node",
-					"hasSuccess": true,
-					"hasFailure": true,
-					"hasRepeat": false,
-					"hasNoRepeat": false,
+					"parentId": "Agama-call-Node-e41bf639-ea7f-4250-b576-9af83754f604",
 					"whenCondition": "",
 					"inRepeatBlock": false,
-					"parentId": "Agama-call-Node-e41bf639-ea7f-4250-b576-9af83754f604",
-					"name": "",
-					"basepath": "",
+					"nodeColor": "",
 					"comment": "",
-					"notes": "",
-					"flowfilename": "",
-					"assignedvariableName": "",
 					"callType": "Call static method",
-					"arguments": "",
-					"logMessage": "",
-					"variableType": "",
-					"templatePath": "",
-					"maxIteration": "",
-					"idpAuthEndpoint": "",
-					"whenVariable": "",
-					"whenConditionInputField": "",
-					"whenValue": "",
-					"returnVariable": "",
-					"asssignmentExpression": "",
-					"javaClassName": "",
-					"javaMethodName": "",
-					"javaVariableName": "",
-					"maxIterationVariableName": "",
-					"logLevel": "",
-					"assignCallbackResult": "",
-					"displayName": "",
-					"nodeColor": ""
+					"logLevel": "info",
+					"whenVariable": "isBob",
+					"whenConditionInputField": "is",
+					"whenValue": "true"
 				}
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 631,
@@ -431,7 +408,7 @@
 					"whenCondition": "",
 					"inRepeatBlock": false,
 					"nodeColor": "",
-					"asssignedVariableName": "personIsBob",
+					"asssignedVariableName": "isBob",
 					"comment": "",
 					"javaClassName": "info.gluu.qa.authn.PersonChecker",
 					"javaMethodName": "isBob",
@@ -701,8 +678,8 @@
 		}
 	],
 	"viewport": {
-		"x": -187,
-		"y": 111,
+		"x": 10,
+		"y": 15,
 		"zoom": 1
 	}
 }
