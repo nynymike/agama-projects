@@ -81,7 +81,7 @@
 					"displayName": "Log Bob Attempt"
 				}
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1035,
@@ -181,7 +181,7 @@
 			"height": 122,
 			"id": "Agama-rrf-Node-c7030638-7cef-4709-831f-69a75bb0ac05",
 			"position": {
-				"x": 835,
+				"x": 836,
 				"y": 290
 			},
 			"type": "rrf",
@@ -196,50 +196,28 @@
 					"Agama-when-Node-982d29cf-db2b-4099-8f00-5908ad28cd85.SUCCESS"
 				],
 				"position": {
-					"x": 835,
+					"x": 836,
 					"y": 290
 				},
 				"agamaData": {
 					"id": "Agama-rrf-Node-c7030638-7cef-4709-831f-69a75bb0ac05",
 					"type": "Agama-rrf-Node",
-					"hasSuccess": false,
-					"hasFailure": false,
-					"hasRepeat": false,
-					"hasNoRepeat": false,
+					"parentId": "Agama-when-Node-982d29cf-db2b-4099-8f00-5908ad28cd85",
 					"whenCondition": "WhenTrue",
 					"inRepeatBlock": false,
-					"parentId": "Agama-when-Node-982d29cf-db2b-4099-8f00-5908ad28cd85",
-					"name": "",
-					"basepath": "",
+					"nodeColor": "",
+					"asssignedVariableName": "",
 					"comment": "",
-					"notes": "",
-					"flowfilename": "",
-					"assignedvariableName": "",
 					"callType": "Call static method",
+					"logLevel": "info",
 					"arguments": "",
-					"logMessage": "",
-					"variableType": "",
-					"templatePath": "",
-					"maxIteration": "",
-					"idpAuthEndpoint": "",
-					"whenVariable": "",
-					"whenConditionInputField": "",
-					"whenValue": "",
-					"returnVariable": "",
-					"asssignmentExpression": "",
-					"javaClassName": "",
-					"javaMethodName": "",
-					"javaVariableName": "",
-					"maxIterationVariableName": "",
-					"logLevel": "",
-					"assignCallbackResult": "",
-					"displayName": "",
-					"nodeColor": ""
+					"templatePath": "stepTwo.ftlh",
+					"displayName": "Step Two"
 				}
 			},
 			"selected": false,
 			"positionAbsolute": {
-				"x": 835,
+				"x": 836,
 				"y": 290
 			},
 			"dragging": false
@@ -586,8 +564,8 @@
 		}
 	],
 	"viewport": {
-		"x": 10,
-		"y": 15,
+		"x": -136,
+		"y": 4,
 		"zoom": 1
 	}
 }
