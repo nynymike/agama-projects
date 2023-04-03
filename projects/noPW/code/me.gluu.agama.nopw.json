@@ -205,7 +205,7 @@
 			"height": 122,
 			"id": "Agama-log-Node-962f2a17-d859-4074-80d2-001ed7f67e5c",
 			"position": {
-				"x": 881,
+				"x": 882,
 				"y": 30
 			},
 			"type": "log",
@@ -220,51 +220,27 @@
 					"Agama-when-Node-982d29cf-db2b-4099-8f00-5908ad28cd85.SUCCESS"
 				],
 				"position": {
-					"x": 881,
+					"x": 882,
 					"y": 30
 				},
 				"agamaData": {
 					"id": "Agama-log-Node-962f2a17-d859-4074-80d2-001ed7f67e5c",
 					"type": "Agama-log-Node",
-					"hasSuccess": false,
-					"hasFailure": false,
-					"hasRepeat": false,
-					"hasNoRepeat": false,
+					"parentId": "Agama-when-Node-982d29cf-db2b-4099-8f00-5908ad28cd85",
 					"whenCondition": "WhenFalse",
 					"inRepeatBlock": false,
-					"parentId": "Agama-when-Node-982d29cf-db2b-4099-8f00-5908ad28cd85",
-					"name": "",
-					"basepath": "",
+					"nodeColor": "",
 					"comment": "",
-					"notes": "",
-					"flowfilename": "",
-					"assignedvariableName": "",
 					"callType": "Call static method",
-					"arguments": "",
-					"logMessage": "",
-					"variableType": "",
-					"templatePath": "",
-					"maxIteration": "",
-					"idpAuthEndpoint": "",
-					"whenVariable": "",
-					"whenConditionInputField": "",
-					"whenValue": "",
-					"returnVariable": "",
-					"asssignmentExpression": "",
-					"javaClassName": "",
-					"javaMethodName": "",
-					"javaVariableName": "",
-					"maxIterationVariableName": "",
-					"logLevel": "",
-					"assignCallbackResult": "",
-					"displayName": "",
-					"nodeColor": ""
+					"logLevel": "info",
+					"logMessage": "\"Not bob... it's: \" creds.username ",
+					"displayName": "Log Username"
 				}
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 881,
+				"x": 882,
 				"y": 30
 			}
 		},
@@ -374,7 +350,7 @@
 					"whenValue": "true"
 				}
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 631,
