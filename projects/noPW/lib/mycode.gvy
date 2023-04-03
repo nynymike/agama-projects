@@ -2,8 +2,8 @@ package info.gluu.qa.authn
 
 class PersonChecker {
 
-    static boolean isBob(String username) {
-        username.toLowerCase() == "bob@gluu.org"
+    static boolean isBob(String email) {
+        email.toLowerCase() == "bob@gluu.org"
     }
 
 }
