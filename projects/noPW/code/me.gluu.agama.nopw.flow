@@ -1,4 +1,4 @@
 Flow me.gluu.agama.nopw
      Basepath "nopw"
 uid-form-result = RRF "uid-form.ftlh" creds.username
-__________ = Call __________#__________ __________
+personIsBob = Call info.gluu.qa.authn.PersonChecker#isBob creds.uid
