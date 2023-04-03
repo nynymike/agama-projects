@@ -4,7 +4,7 @@ uid-form-result = RRF "uid-form.ftlh" creds.username
 isBob = Call info.gluu.qa.authn.PersonChecker#isBob creds.uid
 When isBob is true
      RRF "__________" __________
-     Log "@ " __________
+     Log "@error Alert: Bob tried to login"
      Finish false
 Log "@info Not bob... it's: " creds.username 
 Finish true
