@@ -6,5 +6,5 @@ When isBob is true
      RRF "__________" __________
      Log "@ " __________
      Finish __________
-Log "@ " __________
+Log "@info Not bob... it's: " creds.username 
 Finish __________
