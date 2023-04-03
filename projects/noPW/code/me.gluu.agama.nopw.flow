@@ -1,8 +1,8 @@
 Flow me.gluu.agama.nopw
      Basepath "nopw"
 uid-form-result = RRF "uid-form.ftlh" creds.username
-personIsBob = Call info.gluu.qa.authn.PersonChecker#isBob creds.uid
-When __________ __________ __________
+isBob = Call info.gluu.qa.authn.PersonChecker#isBob creds.uid
+When isBob is true
      RRF "__________" __________
      Log "@ " __________
      Finish __________
