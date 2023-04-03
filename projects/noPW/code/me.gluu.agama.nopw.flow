@@ -5,6 +5,6 @@ isBob = Call info.gluu.qa.authn.PersonChecker#isBob creds.uid
 When isBob is true
      RRF "__________" __________
      Log "@ " __________
-     Finish __________
+     Finish false
 Log "@info Not bob... it's: " creds.username 
-Finish __________
+Finish true
