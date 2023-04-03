@@ -23,45 +23,26 @@
 				"agamaData": {
 					"id": "Agama-call-Node-e41bf639-ea7f-4250-b576-9af83754f604",
 					"type": "Agama-call-Node",
-					"hasSuccess": false,
-					"hasFailure": false,
-					"hasRepeat": false,
-					"hasNoRepeat": false,
+					"parentId": "Agama-rrf-Node-5ab5be84-f67f-4f21-8c33-852269d2c68f",
 					"whenCondition": "",
 					"inRepeatBlock": false,
-					"parentId": "Agama-rrf-Node-5ab5be84-f67f-4f21-8c33-852269d2c68f",
-					"name": "",
-					"basepath": "",
+					"nodeColor": "",
+					"asssignedVariableName": "personIsBob",
 					"comment": "",
-					"notes": "",
-					"flowfilename": "",
-					"assignedvariableName": "",
+					"javaClassName": "info.gluu.qa.authn.PersonChecker",
+					"javaMethodName": "isBob",
 					"callType": "Call static method",
-					"arguments": "",
-					"logMessage": "",
-					"variableType": "",
-					"templatePath": "",
-					"maxIteration": "",
-					"idpAuthEndpoint": "",
-					"whenVariable": "",
-					"whenConditionInputField": "",
-					"whenValue": "",
-					"returnVariable": "",
-					"asssignmentExpression": "",
-					"javaClassName": "",
-					"javaMethodName": "",
-					"javaVariableName": "",
-					"maxIterationVariableName": "",
-					"logLevel": "",
-					"assignCallbackResult": "",
-					"displayName": "",
-					"nodeColor": ""
+					"logLevel": "info",
+					"arguments": "creds.uid",
+					"displayName": "isBob?"
 				}
 			},
 			"positionAbsolute": {
 				"x": 430,
 				"y": 30
-			}
+			},
+			"selected": true,
+			"dragging": false
 		},
 		{
 			"width": 170,
@@ -207,8 +188,8 @@
 		}
 	],
 	"viewport": {
-		"x": 7,
-		"y": 100,
-		"zoom": 1
+		"x": -29.4501573882618,
+		"y": 5.96027596679815,
+		"zoom": 1.0505012515821333
 	}
 }
