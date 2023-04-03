@@ -41,7 +41,7 @@
 				"x": 1235,
 				"y": 290
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -70,42 +70,18 @@
 				"agamaData": {
 					"id": "Agama-log-Node-31f36616-448c-482d-84a8-c980cc9d12e6",
 					"type": "Agama-log-Node",
-					"hasSuccess": false,
-					"hasFailure": false,
-					"hasRepeat": false,
-					"hasNoRepeat": false,
+					"parentId": "Agama-rrf-Node-c7030638-7cef-4709-831f-69a75bb0ac05",
 					"whenCondition": "",
 					"inRepeatBlock": false,
-					"parentId": "Agama-rrf-Node-c7030638-7cef-4709-831f-69a75bb0ac05",
-					"name": "",
-					"basepath": "",
-					"comment": "",
-					"notes": "",
-					"flowfilename": "",
-					"assignedvariableName": "",
+					"nodeColor": "",
+					"comment": "Error: Bob is trying to get in again!",
 					"callType": "Call static method",
-					"arguments": "",
-					"logMessage": "",
-					"variableType": "",
-					"templatePath": "",
-					"maxIteration": "",
-					"idpAuthEndpoint": "",
-					"whenVariable": "",
-					"whenConditionInputField": "",
-					"whenValue": "",
-					"returnVariable": "",
-					"asssignmentExpression": "",
-					"javaClassName": "",
-					"javaMethodName": "",
-					"javaVariableName": "",
-					"maxIterationVariableName": "",
-					"logLevel": "",
-					"assignCallbackResult": "",
-					"displayName": "",
-					"nodeColor": ""
+					"logLevel": "error",
+					"logMessage": "\"Alert: Bob tried to login\"",
+					"displayName": "Log Bob Attempt"
 				}
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1035,
@@ -610,8 +586,8 @@
 		}
 	],
 	"viewport": {
-		"x": -266,
-		"y": 37,
+		"x": 10,
+		"y": 15,
 		"zoom": 1
 	}
 }
