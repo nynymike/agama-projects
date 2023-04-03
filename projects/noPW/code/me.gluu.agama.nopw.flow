@@ -1,2 +1,3 @@
 Flow me.gluu.agama.nopw
      Basepath "nopw"
+uid-form-result = RRF "uid-form.ftlh" creds.username
