@@ -3,6 +3,69 @@
 		{
 			"width": 170,
 			"height": 122,
+			"id": "Agama-call-Node-e41bf639-ea7f-4250-b576-9af83754f604",
+			"position": {
+				"x": 430,
+				"y": 30
+			},
+			"type": "call",
+			"data": {
+				"id": "Agama-call-Node-e41bf639-ea7f-4250-b576-9af83754f604",
+				"type": "Agama-call-Node",
+				"parentId": "Agama-rrf-Node-5ab5be84-f67f-4f21-8c33-852269d2c68f",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"handles": [],
+				"position": {
+					"x": 430,
+					"y": 30
+				},
+				"agamaData": {
+					"id": "Agama-call-Node-e41bf639-ea7f-4250-b576-9af83754f604",
+					"type": "Agama-call-Node",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasNoRepeat": false,
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"parentId": "Agama-rrf-Node-5ab5be84-f67f-4f21-8c33-852269d2c68f",
+					"name": "",
+					"basepath": "",
+					"comment": "",
+					"notes": "",
+					"flowfilename": "",
+					"assignedvariableName": "",
+					"callType": "Call static method",
+					"arguments": "",
+					"logMessage": "",
+					"variableType": "",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"whenVariable": "",
+					"whenConditionInputField": "",
+					"whenValue": "",
+					"returnVariable": "",
+					"asssignmentExpression": "",
+					"javaClassName": "",
+					"javaMethodName": "",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "",
+					"displayName": "",
+					"nodeColor": ""
+				}
+			},
+			"positionAbsolute": {
+				"x": 430,
+				"y": 30
+			}
+		},
+		{
+			"width": 170,
+			"height": 122,
 			"id": "Agama-rrf-Node-5ab5be84-f67f-4f21-8c33-852269d2c68f",
 			"position": {
 				"x": 230,
@@ -113,6 +176,23 @@
 			"type": "straight",
 			"source": "Agama-start-Flow-fa2001ec-a351-4d59-869e-6b40db136f4b",
 			"target": "Agama-rrf-Node-5ab5be84-f67f-4f21-8c33-852269d2c68f",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
+		},
+		{
+			"id": "Agama-rrf-Node-5ab5be84-f67f-4f21-8c33-852269d2c68f-Agama-call-Node-e41bf639-ea7f-4250-b576-9af83754f604-26866944-b535-4b2c-89e0-a26592e00cbb",
+			"type": "straight",
+			"source": "Agama-rrf-Node-5ab5be84-f67f-4f21-8c33-852269d2c68f",
+			"target": "Agama-call-Node-e41bf639-ea7f-4250-b576-9af83754f604",
 			"label": "",
 			"labelBgPadding": [
 				8,
