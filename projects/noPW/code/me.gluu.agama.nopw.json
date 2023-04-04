@@ -206,16 +206,16 @@
 					"whenCondition": "WhenTrue",
 					"inRepeatBlock": false,
 					"nodeColor": "",
-					"asssignedVariableName": "",
+					"asssignedVariableName": "steptwo-result",
 					"comment": "",
 					"callType": "Call static method",
 					"logLevel": "info",
-					"arguments": "",
+					"arguments": "next",
 					"templatePath": "stepTwo.ftlh",
 					"displayName": "Step Two"
 				}
 			},
-			"selected": false,
+			"selected": true,
 			"positionAbsolute": {
 				"x": 836,
 				"y": 290
@@ -223,7 +223,7 @@
 			"dragging": false
 		},
 		{
-			"width": 210,
+			"width": 209,
 			"height": 140,
 			"id": "Agama-when-Node-982d29cf-db2b-4099-8f00-5908ad28cd85",
 			"position": {
@@ -564,8 +564,8 @@
 		}
 	],
 	"viewport": {
-		"x": -136,
-		"y": 4,
+		"x": -380,
+		"y": -47,
 		"zoom": 1
 	}
 }
