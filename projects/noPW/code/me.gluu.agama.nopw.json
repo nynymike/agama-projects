@@ -215,7 +215,7 @@
 					"displayName": "Step Two"
 				}
 			},
-			"selected": true,
+			"selected": false,
 			"positionAbsolute": {
 				"x": 836,
 				"y": 290
@@ -223,7 +223,7 @@
 			"dragging": false
 		},
 		{
-			"width": 209,
+			"width": 210,
 			"height": 140,
 			"id": "Agama-when-Node-982d29cf-db2b-4099-8f00-5908ad28cd85",
 			"position": {
@@ -272,7 +272,7 @@
 			"height": 122,
 			"id": "Agama-call-Node-e41bf639-ea7f-4250-b576-9af83754f604",
 			"position": {
-				"x": 430,
+				"x": 431,
 				"y": 30
 			},
 			"type": "call",
@@ -284,7 +284,7 @@
 				"inRepeatBlock": false,
 				"handles": [],
 				"position": {
-					"x": 430,
+					"x": 431,
 					"y": 30
 				},
 				"agamaData": {
@@ -300,15 +300,15 @@
 					"javaMethodName": "isBob",
 					"callType": "Call static method",
 					"logLevel": "info",
-					"arguments": "creds.uid",
+					"arguments": "creds.username",
 					"displayName": "isBob?"
 				}
 			},
 			"positionAbsolute": {
-				"x": 430,
+				"x": 431,
 				"y": 30
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
@@ -564,8 +564,8 @@
 		}
 	],
 	"viewport": {
-		"x": -380,
-		"y": -47,
+		"x": 10,
+		"y": 15,
 		"zoom": 1
 	}
 }
