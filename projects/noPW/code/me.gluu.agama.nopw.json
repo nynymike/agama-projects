@@ -36,7 +36,7 @@
 					"displayName": "define creds"
 				}
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 231.97985795627608,
@@ -92,8 +92,8 @@
 			"height": 122,
 			"id": "finish-fa4a4906-8921-4201-9922-d97fe0825827",
 			"position": {
-				"x": 1541.8724099384483,
-				"y": 322.3353125571126
+				"x": 1529.1342565068583,
+				"y": 282.1611363497909
 			},
 			"type": "finish",
 			"data": {
@@ -107,8 +107,8 @@
 					"Agama-when-Node-982d29cf-db2b-4099-8f00-5908ad28cd85.SUCCESS"
 				],
 				"position": {
-					"x": 1541.8724099384483,
-					"y": 322.3353125571126
+					"x": 1529.1342565068583,
+					"y": 282.1611363497909
 				},
 				"agamaData": {
 					"id": "finish-fa4a4906-8921-4201-9922-d97fe0825827",
@@ -125,10 +125,10 @@
 				}
 			},
 			"positionAbsolute": {
-				"x": 1541.8724099384483,
-				"y": 322.3353125571126
+				"x": 1529.1342565068583,
+				"y": 282.1611363497909
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
@@ -209,11 +209,7 @@
 					"callType": "Call static method",
 					"logLevel": "info",
 					"logMessage": "\"Not bob... it's: \" creds.username ",
-					"displayName": "Log Username",
-					"hasSuccess": "",
-					"hasFailure": "",
-					"hasNoRepeat": false,
-					"hasRepeat": false
+					"displayName": "Log Username"
 				}
 			},
 			"selected": false,
@@ -228,8 +224,8 @@
 			"height": 122,
 			"id": "Agama-rrf-Node-c7030638-7cef-4709-831f-69a75bb0ac05",
 			"position": {
-				"x": 1011.394574173429,
-				"y": 280.20142043723865
+				"x": 1012.3744321297052,
+				"y": 279.22156248096246
 			},
 			"type": "rrf",
 			"data": {
@@ -243,8 +239,8 @@
 					"Agama-when-Node-982d29cf-db2b-4099-8f00-5908ad28cd85.SUCCESS"
 				],
 				"position": {
-					"x": 1011.394574173429,
-					"y": 280.20142043723865
+					"x": 1012.3744321297052,
+					"y": 279.22156248096246
 				},
 				"agamaData": {
 					"id": "Agama-rrf-Node-c7030638-7cef-4709-831f-69a75bb0ac05",
@@ -253,7 +249,7 @@
 					"whenCondition": "WhenTrue",
 					"inRepeatBlock": false,
 					"nodeColor": "",
-					"asssignedVariableName": "steptwo-result",
+					"asssignedVariableName": "steptwoResult",
 					"comment": "",
 					"callType": "Call static method",
 					"logLevel": "info",
@@ -264,8 +260,8 @@
 			},
 			"selected": false,
 			"positionAbsolute": {
-				"x": 1011.394574173429,
-				"y": 280.20142043723865
+				"x": 1012.3744321297052,
+				"y": 279.22156248096246
 			},
 			"dragging": false
 		},
@@ -363,7 +359,7 @@
 			"height": 122,
 			"id": "Agama-rrf-Node-5ab5be84-f67f-4f21-8c33-852269d2c68f",
 			"position": {
-				"x": 430,
+				"x": 442.2156248096246,
 				"y": 30
 			},
 			"type": "rrf",
@@ -375,7 +371,7 @@
 				"inRepeatBlock": false,
 				"handles": [],
 				"position": {
-					"x": 430,
+					"x": 442.2156248096246,
 					"y": 30
 				},
 				"agamaData": {
@@ -385,7 +381,7 @@
 					"whenCondition": "",
 					"inRepeatBlock": false,
 					"nodeColor": "",
-					"asssignedVariableName": "uid-form-result",
+					"asssignedVariableName": "uidResult",
 					"comment": "",
 					"callType": "Call static method",
 					"logLevel": "info",
@@ -397,7 +393,7 @@
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 430,
+				"x": 442.2156248096246,
 				"y": 30
 			}
 		},
@@ -640,8 +636,8 @@
 		}
 	],
 	"viewport": {
-		"x": -92.8492407419485,
-		"y": 160.7797943301506,
+		"x": -596.8492407419485,
+		"y": 122.7797943301506,
 		"zoom": 1.0205560852926163
 	}
 }
