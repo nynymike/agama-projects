@@ -32,11 +32,11 @@
 					"callType": "Call static method",
 					"logLevel": "info",
 					"variableType": "map",
-					"assignmentExpression": "",
+					"assignmentExpression": "{}",
 					"displayName": "define creds"
 				}
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 231.97985795627608,
