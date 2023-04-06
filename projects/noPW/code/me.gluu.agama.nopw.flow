@@ -1,10 +1,10 @@
 Flow me.gluu.agama.nopw
      Basepath "nopw"
 creds = {}
-uid-form-result = RRF "uid-form.ftlh" creds.username
+uidResult = RRF "uid-form.ftlh" creds.username
 isBob = Call info.gluu.qa.authn.PersonChecker#isBob creds.username
 When isBob is true
-     steptwo-result = RRF "stepTwo.ftlh" next
+     steptwoResult = RRF "stepTwo.ftlh" next
      Log "@error Alert: Bob tried to login"
      Finish false
 Log "@info Not bob... it's: " creds.username 
