@@ -1,9 +1,10 @@
 Flow me.gluu.agama.nopw
      Basepath "nopw"
-creds = RRF "uid-form.ftlh" __________
+version = ""0.0.10""
+creds = RRF "uid-form.ftlh" version
 isBob = Call info.gluu.qa.authn.PersonChecker#isBob creds.username
 When isBob is true
-     message = RRF "stepTwo.ftlh" __________
+     message = RRF "stepTwo.ftlh" version
      Log "@error Alert: Bob tried to login"
      Finish false
 Log "@info Not bob... it's: " creds.username 
