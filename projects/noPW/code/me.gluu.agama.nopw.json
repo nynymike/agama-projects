@@ -32,11 +32,11 @@
 					"callType": "Call static method",
 					"logLevel": "info",
 					"variableType": "string",
-					"assignmentExpression": "\"0.0.10\"",
+					"assignmentExpression": "0.0.10",
 					"displayName": "version variable"
 				}
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 231,
@@ -653,8 +653,8 @@
 		}
 	],
 	"viewport": {
-		"x": 44.698583790873926,
-		"y": 156.08668940449843,
-		"zoom": 0.9393327740592246
+		"x": 10,
+		"y": 15,
+		"zoom": 1
 	}
 }
