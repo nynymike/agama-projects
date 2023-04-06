@@ -31,8 +31,8 @@
 					"comment": "",
 					"callType": "Call static method",
 					"logLevel": "info",
-					"variableType": "string",
-					"assignmentExpression": "0.0.10",
+					"variableType": "map",
+					"assignmentExpression": "{}",
 					"displayName": "version variable"
 				}
 			},
