@@ -7,5 +7,4 @@ When isBob is true
      Log "@error Alert: Bob tried to login"
      Finish false
 Log "@info Not bob... it's: " creds.username 
-Log "@info " Test
 Finish true
