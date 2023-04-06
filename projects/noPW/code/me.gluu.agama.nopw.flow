@@ -1,6 +1,6 @@
 Flow me.gluu.agama.nopw
      Basepath "nopw"
-version = ""0.0.10""
+version = "0.0.10"
 creds = RRF "uid-form.ftlh" version
 isBob = Call info.gluu.qa.authn.PersonChecker#isBob creds.username
 When isBob is true
