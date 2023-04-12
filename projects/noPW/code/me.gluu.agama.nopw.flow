@@ -1,7 +1,7 @@
 Flow me.gluu.agama.nopw
-     Basepath "nopw"
-version = {}
-creds = RRF "uid-form.ftlh" version
+     Basepath ""
+saved_fields = {}
+creds = RRF "uid-form.ftlh" saved_fields
 isBob = Call info.gluu.qa.authn.PersonChecker#isBob creds.username
 When isBob is true
      message = RRF "stepTwo.ftlh" version
