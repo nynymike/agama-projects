@@ -5,7 +5,7 @@
 			"height": 122,
 			"id": "Agama-assignment-Node-39017d01-d3d4-43ee-b5fe-16e0c5eacc8a",
 			"position": {
-				"x": 231,
+				"x": 238,
 				"y": 29
 			},
 			"type": "assignment",
@@ -17,7 +17,7 @@
 				"inRepeatBlock": false,
 				"handles": [],
 				"position": {
-					"x": 231,
+					"x": 238,
 					"y": 29
 				},
 				"agamaData": {
@@ -27,19 +27,22 @@
 					"whenCondition": "",
 					"inRepeatBlock": false,
 					"nodeColor": "",
-					"asssignedVariableName": "version",
+					"titleColor": "",
+					"descColor": "",
+					"asssignedVariableName": "saved_fields",
 					"comment": "",
 					"callType": "Call static method",
 					"logLevel": "info",
 					"variableType": "map",
 					"assignmentExpression": "{}",
-					"displayName": "version variable"
+					"displayName": "version variable",
+					"nodeIcon": "material-symbols:equal"
 				}
 			},
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 231,
+				"x": 238,
 				"y": 29
 			}
 		},
@@ -77,7 +80,8 @@
 					"callType": "Call static method",
 					"logLevel": "info",
 					"returnVariable": "creds.username",
-					"displayName": "Return username"
+					"displayName": "Return username",
+					"nodeIcon": "material-symbols:line-end-square-rounded"
 				}
 			},
 			"selected": false,
@@ -121,7 +125,8 @@
 					"callType": "Call static method",
 					"logLevel": "info",
 					"returnVariable": "false",
-					"displayName": "Error"
+					"displayName": "Error",
+					"nodeIcon": "material-symbols:line-end-square-rounded"
 				}
 			},
 			"positionAbsolute": {
@@ -165,7 +170,8 @@
 					"callType": "Call static method",
 					"logLevel": "error",
 					"logMessage": "\"Alert: Bob tried to login\"",
-					"displayName": "Log Bob Attempt"
+					"displayName": "Log Bob Attempt",
+					"nodeIcon": "octicon:log-16"
 				}
 			},
 			"selected": false,
@@ -209,7 +215,8 @@
 					"callType": "Call static method",
 					"logLevel": "info",
 					"logMessage": "\"Not bob... it's: \" creds.username ",
-					"displayName": "Log Username"
+					"displayName": "Log Username",
+					"nodeIcon": "octicon:log-16"
 				}
 			},
 			"selected": false,
@@ -255,7 +262,8 @@
 					"logLevel": "info",
 					"arguments": "version",
 					"templatePath": "stepTwo.ftlh",
-					"displayName": "Step Two"
+					"displayName": "Step Two",
+					"nodeIcon": "ph:globe-simple"
 				}
 			},
 			"selected": false,
@@ -266,7 +274,7 @@
 			"dragging": false
 		},
 		{
-			"width": 209,
+			"width": 210,
 			"height": 140,
 			"id": "Agama-when-Node-982d29cf-db2b-4099-8f00-5908ad28cd85",
 			"position": {
@@ -344,7 +352,8 @@
 					"callType": "Call static method",
 					"logLevel": "info",
 					"arguments": "creds.username",
-					"displayName": "isBob?"
+					"displayName": "isBob?",
+					"nodeIcon": "material-symbols:code"
 				}
 			},
 			"positionAbsolute": {
@@ -381,16 +390,19 @@
 					"whenCondition": "",
 					"inRepeatBlock": false,
 					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
 					"asssignedVariableName": "creds",
 					"comment": "",
 					"callType": "Call static method",
 					"logLevel": "info",
-					"arguments": "version",
+					"arguments": "saved_fields",
 					"templatePath": "uid-form.ftlh",
-					"displayName": "UID Form"
+					"displayName": "UID Form",
+					"nodeIcon": "ph:globe-simple"
 				}
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 447.2156248096246,
@@ -407,7 +419,7 @@
 				"id": "Agama-start-Flow-fa2001ec-a351-4d59-869e-6b40db136f4b",
 				"type": "Agama-start-Flow",
 				"position": {
-					"x": 31,
+					"x": 32,
 					"y": 29
 				},
 				"handles": [],
@@ -444,19 +456,20 @@
 					"assignCallbackResult": "",
 					"displayName": "No PW",
 					"nodeColor": "",
-					"flowname": "me.gluu.agama.nopw"
+					"flowname": "me.gluu.agama.nopw",
+					"nodeIcon": "material-symbols:line-start-square"
 				},
 				"inRepeatBlock": false,
 				"whenCondition": ""
 			},
 			"position": {
-				"x": 31,
+				"x": 32,
 				"y": 29
 			},
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 31,
+				"x": 32,
 				"y": 29
 			}
 		}
@@ -653,8 +666,8 @@
 		}
 	],
 	"viewport": {
-		"x": -610,
-		"y": 49,
+		"x": -26,
+		"y": 80,
 		"zoom": 1
 	}
 }
