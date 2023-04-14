@@ -1,4 +1,4 @@
-package info.gluu.qa.authn
+package gluu.demo
 
 class PersonChecker {
 
