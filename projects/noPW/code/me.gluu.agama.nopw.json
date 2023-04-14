@@ -274,7 +274,7 @@
 			"dragging": false
 		},
 		{
-			"width": 210,
+			"width": 209,
 			"height": 140,
 			"id": "Agama-when-Node-982d29cf-db2b-4099-8f00-5908ad28cd85",
 			"position": {
@@ -345,9 +345,11 @@
 					"whenCondition": "",
 					"inRepeatBlock": false,
 					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
 					"asssignedVariableName": "isBob",
 					"comment": "",
-					"javaClassName": "info.gluu.qa.authn.PersonChecker",
+					"javaClassName": "gluu.demo.PersonChecker",
 					"javaMethodName": "isBob",
 					"callType": "Call static method",
 					"logLevel": "info",
@@ -360,7 +362,7 @@
 				"x": 641,
 				"y": 31
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
@@ -402,7 +404,7 @@
 					"nodeIcon": "ph:globe-simple"
 				}
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 447.2156248096246,
@@ -666,8 +668,8 @@
 		}
 	],
 	"viewport": {
-		"x": -26,
-		"y": 80,
+		"x": 10,
+		"y": 15,
 		"zoom": 1
 	}
 }
