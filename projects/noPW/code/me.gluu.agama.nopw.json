@@ -35,7 +35,7 @@
 					"logLevel": "info",
 					"variableType": "map",
 					"assignmentExpression": "{}",
-					"displayName": "version variable",
+					"displayName": "Saved Fields Map",
 					"nodeIcon": "material-symbols:equal"
 				}
 			},
@@ -231,7 +231,7 @@
 			"height": 122,
 			"id": "Agama-rrf-Node-c7030638-7cef-4709-831f-69a75bb0ac05",
 			"position": {
-				"x": 1128.4433152133352,
+				"x": 1129.4433152133352,
 				"y": 227.83190098740204
 			},
 			"type": "rrf",
@@ -246,7 +246,7 @@
 					"Agama-when-Node-982d29cf-db2b-4099-8f00-5908ad28cd85.SUCCESS"
 				],
 				"position": {
-					"x": 1128.4433152133352,
+					"x": 1129.4433152133352,
 					"y": 227.83190098740204
 				},
 				"agamaData": {
@@ -256,11 +256,13 @@
 					"whenCondition": "WhenTrue",
 					"inRepeatBlock": false,
 					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
 					"asssignedVariableName": "message",
 					"comment": "",
 					"callType": "Call static method",
 					"logLevel": "info",
-					"arguments": "version",
+					"arguments": "saved_fields",
 					"templatePath": "stepTwo.ftlh",
 					"displayName": "Step Two",
 					"nodeIcon": "ph:globe-simple"
@@ -268,7 +270,7 @@
 			},
 			"selected": false,
 			"positionAbsolute": {
-				"x": 1128.4433152133352,
+				"x": 1129.4433152133352,
 				"y": 227.83190098740204
 			},
 			"dragging": false
@@ -362,7 +364,7 @@
 				"x": 641,
 				"y": 31
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -668,8 +670,8 @@
 		}
 	],
 	"viewport": {
-		"x": 10,
-		"y": 15,
+		"x": -625,
+		"y": 124,
 		"zoom": 1
 	}
 }
