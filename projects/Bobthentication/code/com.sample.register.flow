@@ -1,0 +1,9 @@
+Flow com.sample.register
+     Basepath "register"
+RRF "uid.ftlh" creds.username
+fraud_detected = Call __________#__________ __________
+When fraud_detected is true
+     RRF "__________" __________
+     Log "@ " __________
+     Finish true
+Log "@ " __________

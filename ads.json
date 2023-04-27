@@ -13,17 +13,16 @@
         "project_type": "community"
     },
     "noPW": {
-        "gh_author": "nynymike",
         "gh_repo_path": "agama-projects",
-        "project_name": "noPW",
-        "version": "0.0.1",
+        "version": "0.0.26",
         "author": "nynymike",
         "author_website": "https://github.com/nynymike/agama-projects",
         "github_uri": "https://github.com/nynymike/agama-projects",
-        "project_description": "Login without any creds",
         "license": "MIT",
         "last_updated": "1675690502972",
-        "project_type": "community"
+        "project_type": "community",
+        "projectName": "noPW",
+        "description": "Login without any creds"
     },
     "AgamaLab": {
         "gh_author": "nynymike",
@@ -37,5 +36,18 @@
         "license": "MIT",
         "last_updated": "1677082314705",
         "project_type": "community"
+    },
+    "twoStepQA": {
+        "author": "nynymike",
+        "license": "MIT",
+        "project_name": "twoStepQA",
+        "author_website": "https://github.com/nynymike/agama-projects",
+        "github_uri": "https://github.com/nynymike/agama-projects",
+        "project_description": "Displays two form for QA testing",
+        "gh_repo_path": "agama-projects",
+        "gh_author": "nynymike",
+        "last_updated": "1680289604071",
+        "project_type": "community",
+        "version": "0.0.1"
     }
 }

@@ -1,0 +1,11 @@
+Flow me.gluu.agama.nopw
+     Basepath ""
+saved_fields = {}
+creds = RRF "uid-form.ftlh" saved_fields
+isBob = Call gluu.demo.PersonChecker#isBob creds.username
+When isBob is true
+     message = RRF "stepTwo.ftlh" saved_fields
+     Log "@error Alert: Bob tried to login"
+     Finish false
+Log "@info Not bob... it's: " creds.username 
+Finish creds.username
