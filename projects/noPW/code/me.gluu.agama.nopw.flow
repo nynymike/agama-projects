@@ -4,7 +4,7 @@ creds = RRF "uid-form.ftlh"
 user = Call co.sample#searchAndAdd "uid" creds.username creds.username
 isBob = Call co.PersonChecker#isBob creds.username
 When isBob is true
-     message = RRF "stepTwo.ftlh" user
+     message = RRF "stepTwo.ftlh" creds
      Log "@error Alert: Bob tried to login"
      Finish false
 Log "@info Not bob... it's: " creds.username 
