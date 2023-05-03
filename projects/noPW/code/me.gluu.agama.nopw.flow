@@ -1,7 +1,6 @@
 Flow me.gluu.agama.nopw
      Basepath ""
-saved_fields = {}
-creds = RRF "uid-form.ftlh" saved_fields
+creds = RRF "uid-form.ftlh" 
 user = Call co.sample#searchAndAdd "uid" creds.username
 isBob = Call co.PersonChecker#isBob creds.username
 When isBob is true
