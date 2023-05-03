@@ -263,7 +263,7 @@
 					"comment": "",
 					"callType": "Call static method",
 					"logLevel": "info",
-					"arguments": "user",
+					"arguments": "creds",
 					"templatePath": "stepTwo.ftlh",
 					"displayName": "Step Two",
 					"nodeIcon": "ph:globe-simple"
@@ -365,7 +365,7 @@
 				"x": 449.7461387773569,
 				"y": 27.7201979584911
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -682,8 +682,8 @@
 		}
 	],
 	"viewport": {
-		"x": -390,
-		"y": 51,
+		"x": -733,
+		"y": 28,
 		"zoom": 1
 	}
 }
