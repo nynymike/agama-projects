@@ -1,4 +1,4 @@
-package gluu.demo
+package co
 
 class PersonChecker {
 
@@ -7,3 +7,4 @@ class PersonChecker {
     }
 
 }
+
