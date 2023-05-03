@@ -1,7 +1,7 @@
 Flow me.gluu.agama.nopw
      Basepath ""
 creds = RRF "uid-form.ftlh" 
-user = Call co.sample#searchAndAdd "uid" creds.username
+user = Call co.sample#searchAndAdd "uid" creds.username creds.username
 isBob = Call co.PersonChecker#isBob creds.username
 When isBob is true
      message = RRF "stepTwo.ftlh" user
